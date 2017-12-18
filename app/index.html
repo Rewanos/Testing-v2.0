@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+
+	<header class="main-header" style="background-image: url(img/0-header.jpg);">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="header-content">
+					<h1>Welcome to our association</h1>
+				</div>
+				<div class="header-buttom">
+					<a href="#callback" class="button">Join us</a>
+				</div>
+			</div>
+		</div>
+				
+			
+	</header>
+
+	<section class="section-train">
+		<div class="container">
+			<h2>Information</h2>
+			<div class="train-home grid">
+
+				<div class="train-item grid">
+					<div class="train-item-img" style="background-image: url(img/1.jpg);"></div>
+					<div class="train-item-content grid">
+						<h4>Number of companies</h2>
+						<div class="ms-list"></div>
+					</div>
+				</div>
+
+				<div class="train-item grid">
+					<div class="train-item-img" style="background-image: url(img/2.jpg);"></div>
+					<div class="train-item-content grid">
+						<h4>List of companies</h2>
+						<ul class="companies"></ul>			
+					</div>
+				</div>
+
+				
+
+			</div>
+		</div>
+	</section>
+
+	<section class="bgc">
+		<div class="container">
+			<div class="row">
+			<div class="col-sm-12">
+				<div class="partners-wrapper">
+					<h4>Company partners</h4>
+					<ul class="partners-block">
+										
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<section class="section-train">
+		<div class="container">
+			<div class="train-home grid">
+
+				<div class="train-item_2 grid">
+					<div class="train-item-img" style="background-image: url(img/3.jpg);"></div>
+					<div class="train-item-content grid">
+						<div class="news-cont">
+							<h4>Companies by location</h4>
+							
+								<canvas id="myChart"></canvas>
+							
+						</div>
+					</div>
+				</div>
+
+				
+				
+				
+
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+					<div class="swiper-slider">
+							<div class='news-block swiper-container'>
+								<h4 class="news">News</h4>
+									<div class='swiper-wrapper'>
+
+				
+									</div>
+									<div class="swiper-button-prev"></div>
+									<div class="swiper-button-next"></div>
+									<div class="swiper-pagination"></div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="hidden">
+		<form id="callback" class="contact-form">
+
+					<div class="success">
+						<p>Thanks for registration</p>
+
+					</div>
+
+					<input type="hidden" name="project_name" value="Site Name">
+					<input type="hidden" name="admin_email" value="http://codeit.pro/frontTestTask/user/registration">
+					<input type="hidden" name="project_name" value="Регистрация">
+
+					<h3>Registration</h3>
+					<label>
+						<span>Ваше имя</span>
+						<input type="text" name="Имя" placeholder="Имя..." required>
+					</label>
+
+					<label>
+						<span>Ваша фамилия</span>
+						<input type="text" name="Фамилия" placeholder="Фамилия..." required>
+					</label>
+
+					<label>
+						<span>Ваш email</span>
+						<input type="text" name="Email" placeholder="Email..." required>
+					</label>
+
+					<label>
+						<span>Пол</span>
+						<select name="Пол" required>
+							<option>Мужской</option>
+							<option>Женский</option>
+						</select>
+					</label>
+					<label>
+						<span>Ваш пароль</span>
+						<input type="text" name="Password" placeholder="Пароль..." required>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" name="agree" id="checkBox" required> С условиями ознакомлен
+					</label>
+					<button class="button button-small">Отправить</button>
+										
+				</form>
+
+	</div>
+	
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+
+
+</body>
+</html>
